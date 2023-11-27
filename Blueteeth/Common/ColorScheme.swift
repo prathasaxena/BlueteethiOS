@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct ColorScheme {
+    let background = Color("Background")
+    let foreground = Color("Foreground")
+    let primaryBlue = Color("PrimaryBlue")
+}

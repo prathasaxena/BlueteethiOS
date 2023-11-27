@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct BlueteethImage: View {
+    @EnvironmentObject var loginViewModel : LoginViewModel
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("Blueteeth")
+            .resizable()
+            .scaledToFit()
+            .padding(.bottom,10)
+            .onTapGesture {
+                loginViewModel.handleLoginViewActions(action: .singlePress)
+            }
+            .onLongPressGesture(minimumDuration: 0.1) {
+                loginViewModel.handleLoginViewActions(action: .longPress)
+            }
+            .sheet(isPresented: $loginViewModel.loginModel.showModal) {
+                EnvBottomSheet()
+            }
+
     }
 }
 

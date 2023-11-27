@@ -7,9 +7,13 @@
 
 import SwiftUI
 
-struct EnvBottomSheet: View {
+struct EnvBottomSheet : View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            ForEach(environments.allCases, id: \.id) { item in
+                Text("\(item.rawValue)")
+            }
+        }
     }
 }
 
