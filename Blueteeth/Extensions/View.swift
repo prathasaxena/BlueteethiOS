@@ -14,4 +14,8 @@ extension View {
     func regularText() -> some View {
         modifier(TextPrimary())
     }
+    
+    func roundButton() -> some View {
+        modifier(RoundButton())
+    }
 }

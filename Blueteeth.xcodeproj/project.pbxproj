@@ -11,11 +11,16 @@
 		F319BEBA2B0B61B10029F9C9 /* TryADemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319BEB92B0B61B10029F9C9 /* TryADemo.swift */; };
 		F319BEBC2B0B61FD0029F9C9 /* BlueteethImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319BEBB2B0B61FD0029F9C9 /* BlueteethImage.swift */; };
 		F319BEBE2B0B62180029F9C9 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319BEBD2B0B62180029F9C9 /* SignIn.swift */; };
-		F319BEC02B0B63090029F9C9 /* LearnMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319BEBF2B0B63090029F9C9 /* LearnMore.swift */; };
+		F319BEC02B0B63090029F9C9 /* LearnMoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319BEBF2B0B63090029F9C9 /* LearnMoreButton.swift */; };
 		F319BEC22B0B63750029F9C9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319BEC12B0B63750029F9C9 /* LoginViewModel.swift */; };
 		F319BEC42B0B63C70029F9C9 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319BEC32B0B63C70029F9C9 /* LoginModel.swift */; };
 		F34732FA2AF6526600803BD7 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34732F92AF6526600803BD7 /* ColorScheme.swift */; };
 		F34732FE2AF6539700803BD7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34732FD2AF6539700803BD7 /* Colors.swift */; };
+		F35046682B19B2B1001E54D4 /* LearnMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35046672B19B2B1001E54D4 /* LearnMore.swift */; };
+		F350466A2B1B3939001E54D4 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35046692B1B3939001E54D4 /* NavigationViewModel.swift */; };
+		F350466D2B1B3D9E001E54D4 /* NavigationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350466C2B1B3D9E001E54D4 /* NavigationViews.swift */; };
+		F350466F2B1B4128001E54D4 /* TextContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350466E2B1B4128001E54D4 /* TextContent.swift */; };
+		F35046712B1B41F1001E54D4 /* BottomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35046702B1B41F1001E54D4 /* BottomButton.swift */; };
 		F352F76E2AF55F2C00D5A146 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352F76D2AF55F2C00D5A146 /* LoginView.swift */; };
 		F352F7712AF55FE100D5A146 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352F7702AF55FE100D5A146 /* Style.swift */; };
 		F352F7732AF560F900D5A146 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352F7722AF560F900D5A146 /* View.swift */; };
@@ -51,11 +56,16 @@
 		F319BEB92B0B61B10029F9C9 /* TryADemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryADemo.swift; sourceTree = "<group>"; };
 		F319BEBB2B0B61FD0029F9C9 /* BlueteethImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueteethImage.swift; sourceTree = "<group>"; };
 		F319BEBD2B0B62180029F9C9 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
-		F319BEBF2B0B63090029F9C9 /* LearnMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMore.swift; sourceTree = "<group>"; };
+		F319BEBF2B0B63090029F9C9 /* LearnMoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreButton.swift; sourceTree = "<group>"; };
 		F319BEC12B0B63750029F9C9 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		F319BEC32B0B63C70029F9C9 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		F34732F92AF6526600803BD7 /* ColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
 		F34732FD2AF6539700803BD7 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F35046672B19B2B1001E54D4 /* LearnMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMore.swift; sourceTree = "<group>"; };
+		F35046692B1B3939001E54D4 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
+		F350466C2B1B3D9E001E54D4 /* NavigationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViews.swift; sourceTree = "<group>"; };
+		F350466E2B1B4128001E54D4 /* TextContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextContent.swift; sourceTree = "<group>"; };
+		F35046702B1B41F1001E54D4 /* BottomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButton.swift; sourceTree = "<group>"; };
 		F352F76D2AF55F2C00D5A146 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F352F7702AF55FE100D5A146 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		F352F7722AF560F900D5A146 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
@@ -107,6 +117,34 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		F35046652B19B281001E54D4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F35046662B19B296001E54D4 /* LearnMore */,
+				F352F76B2AF55F0500D5A146 /* Login */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F35046662B19B296001E54D4 /* LearnMore */ = {
+			isa = PBXGroup;
+			children = (
+				F35046672B19B2B1001E54D4 /* LearnMore.swift */,
+				F350466E2B1B4128001E54D4 /* TextContent.swift */,
+				F35046702B1B41F1001E54D4 /* BottomButton.swift */,
+			);
+			path = LearnMore;
+			sourceTree = "<group>";
+		};
+		F350466B2B1B3CF1001E54D4 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F35046692B1B3939001E54D4 /* NavigationViewModel.swift */,
+				F350466C2B1B3D9E001E54D4 /* NavigationViews.swift */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
 		F352F76B2AF55F0500D5A146 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +163,7 @@
 				F319BEB92B0B61B10029F9C9 /* TryADemo.swift */,
 				F319BEBB2B0B61FD0029F9C9 /* BlueteethImage.swift */,
 				F319BEBD2B0B62180029F9C9 /* SignIn.swift */,
-				F319BEBF2B0B63090029F9C9 /* LearnMore.swift */,
+				F319BEBF2B0B63090029F9C9 /* LearnMoreButton.swift */,
 				F35808852B0FAFCF00BA2F43 /* EnvBottomSheet.swift */,
 			);
 			path = View;
@@ -163,9 +201,10 @@
 		F38439B52AF3F1EE00E16D35 /* Blueteeth */ = {
 			isa = PBXGroup;
 			children = (
+				F350466B2B1B3CF1001E54D4 /* navigation */,
+				F35046652B19B281001E54D4 /* Components */,
 				F34732F62AF6510A00803BD7 /* Extensions */,
 				F352F76F2AF55FCD00D5A146 /* Common */,
-				F352F76B2AF55F0500D5A146 /* Login */,
 				F38439B62AF3F1EE00E16D35 /* BlueteethApp.swift */,
 				F38439B82AF3F1EE00E16D35 /* ContentView.swift */,
 				F38439BA2AF3F1EF00E16D35 /* Assets.xcassets */,
@@ -330,17 +369,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F350466A2B1B3939001E54D4 /* NavigationViewModel.swift in Sources */,
 				F319BEB82B0B61970029F9C9 /* Title.swift in Sources */,
 				F319BEC42B0B63C70029F9C9 /* LoginModel.swift in Sources */,
+				F35046682B19B2B1001E54D4 /* LearnMore.swift in Sources */,
 				F319BEBA2B0B61B10029F9C9 /* TryADemo.swift in Sources */,
 				F352F76E2AF55F2C00D5A146 /* LoginView.swift in Sources */,
+				F35046712B1B41F1001E54D4 /* BottomButton.swift in Sources */,
 				F319BEBE2B0B62180029F9C9 /* SignIn.swift in Sources */,
 				F35808862B0FAFCF00BA2F43 /* EnvBottomSheet.swift in Sources */,
 				F38439B92AF3F1EE00E16D35 /* ContentView.swift in Sources */,
 				F319BEBC2B0B61FD0029F9C9 /* BlueteethImage.swift in Sources */,
+				F350466D2B1B3D9E001E54D4 /* NavigationViews.swift in Sources */,
 				F38439B72AF3F1EE00E16D35 /* BlueteethApp.swift in Sources */,
-				F319BEC02B0B63090029F9C9 /* LearnMore.swift in Sources */,
+				F319BEC02B0B63090029F9C9 /* LearnMoreButton.swift in Sources */,
 				F319BEC22B0B63750029F9C9 /* LoginViewModel.swift in Sources */,
+				F350466F2B1B4128001E54D4 /* TextContent.swift in Sources */,
 				F34732FE2AF6539700803BD7 /* Colors.swift in Sources */,
 				F352F7732AF560F900D5A146 /* View.swift in Sources */,
 				F34732FA2AF6526600803BD7 /* ColorScheme.swift in Sources */,

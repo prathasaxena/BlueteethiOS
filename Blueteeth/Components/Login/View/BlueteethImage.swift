@@ -29,5 +29,5 @@ struct BlueteethImage: View {
 }
 
 #Preview {
-    BlueteethImage()
+    BlueteethImage().environmentObject(LoginViewModel())
 }

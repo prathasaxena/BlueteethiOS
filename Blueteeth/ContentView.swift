@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var navigation = NavigationViewModel()
     var body: some View {
-        LoginView()
+        NavigationStack(path: $navigation.navigationpath) {
+            LoginView()
+                .navigationDestination(for: NavigationViews.self) { dest in
+                    switch(dest) {
+                    case .LearnMore:
+                        LearnMore()
+                    }
+            }
+        }
+        .environmentObject(navigation)
+        
     }
 }
 

@@ -19,7 +19,7 @@ struct LoginView : View {
             Group {
                 TryADemo()
                 SignIn()
-                LearnMore()
+                LearnMoreButton()
             }.regularText()
                 .padding(.bottom,10)
             Spacer()
@@ -32,6 +32,6 @@ struct LoginView : View {
 }
 
 #Preview {
-    LoginView()
+     LoginView()
 }
 
