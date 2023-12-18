@@ -8,13 +8,21 @@
 import SwiftUI
 
 struct BottomButton: View {
+    @Binding var tabIndex : Int
     @EnvironmentObject var navigation : NavigationViewModel
     var body: some View {
         Button(action: {
             navigation.popback()
         }) {
-            Text("I was never activated")
-                .font(.headline)
+            if tabIndex == 0{
+                Text("I was never activated")
+                    .font(.headline)
+            } else {
+                Text("Close")
+                    .font(.headline)
+            }
+          
+                
         }
         .roundButton()
         .padding(.bottom,50)
@@ -22,5 +30,6 @@ struct BottomButton: View {
 }
 
 #Preview {
-    BottomButton()
+    let tabIndex = Binding.constant(0)
+    return BottomButton(tabIndex: tabIndex)
 }

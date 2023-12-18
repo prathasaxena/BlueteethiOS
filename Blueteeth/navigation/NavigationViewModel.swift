@@ -14,4 +14,8 @@ class NavigationViewModel : ObservableObject {
     func popback() {
         navigationpath.removeLast()
     }
+    
+    func navigatesTo (value: NavigationViews) {
+        navigationpath.append(value)
+    }
 }

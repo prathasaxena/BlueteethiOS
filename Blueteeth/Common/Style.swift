@@ -27,3 +27,11 @@ struct RoundButton : ViewModifier {
             .cornerRadius(20, antialiased: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
     }
 }
+
+struct DashboardButtons : ViewModifier {
+    func body(content: Content) -> some View {
+        content.font(.title3)
+            .fontWeight(.bold)
+            .foregroundColor(.white)
+    }
+}

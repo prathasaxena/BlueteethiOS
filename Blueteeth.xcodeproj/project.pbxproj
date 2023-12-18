@@ -16,7 +16,17 @@
 		F319BEC42B0B63C70029F9C9 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319BEC32B0B63C70029F9C9 /* LoginModel.swift */; };
 		F34732FA2AF6526600803BD7 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34732F92AF6526600803BD7 /* ColorScheme.swift */; };
 		F34732FE2AF6539700803BD7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34732FD2AF6539700803BD7 /* Colors.swift */; };
-		F35046682B19B2B1001E54D4 /* LearnMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35046672B19B2B1001E54D4 /* LearnMore.swift */; };
+		F34A277B2B1E116F003ACE6D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A277A2B1E116F003ACE6D /* WelcomeView.swift */; };
+		F34A277D2B1E13C0003ACE6D /* LearnSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A277C2B1E13C0003ACE6D /* LearnSignUpView.swift */; };
+		F34D469D2B3039F500C53F6B /* DashboardScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D469C2B3039F500C53F6B /* DashboardScene.swift */; };
+		F34D469F2B303A0300C53F6B /* DashboardLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D469E2B303A0300C53F6B /* DashboardLock.swift */; };
+		F34D46A42B303A4000C53F6B /* DashboardThermostat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D46A32B303A4000C53F6B /* DashboardThermostat.swift */; };
+		F34D46A72B303A7A00C53F6B /* Watermeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D46A62B303A7A00C53F6B /* Watermeter.swift */; };
+		F34D46AA2B30463000C53F6B /* DashboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D46A92B30463000C53F6B /* DashboardList.swift */; };
+		F34D46AC2B3047A800C53F6B /* DeviceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D46AB2B3047A800C53F6B /* DeviceCard.swift */; };
+		F34D46AE2B30481800C53F6B /* DeviceTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D46AD2B30481800C53F6B /* DeviceTop.swift */; };
+		F34D46B02B30548A00C53F6B /* AddMoveItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D46AF2B30548A00C53F6B /* AddMoveItem.swift */; };
+		F35046682B19B2B1001E54D4 /* LearnMoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35046672B19B2B1001E54D4 /* LearnMoreTabView.swift */; };
 		F350466A2B1B3939001E54D4 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35046692B1B3939001E54D4 /* NavigationViewModel.swift */; };
 		F350466D2B1B3D9E001E54D4 /* NavigationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350466C2B1B3D9E001E54D4 /* NavigationViews.swift */; };
 		F350466F2B1B4128001E54D4 /* TextContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F350466E2B1B4128001E54D4 /* TextContent.swift */; };
@@ -32,6 +42,9 @@
 		F38439C92AF3F1EF00E16D35 /* BlueteethTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38439C82AF3F1EF00E16D35 /* BlueteethTests.swift */; };
 		F38439D32AF3F1EF00E16D35 /* BlueteethUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38439D22AF3F1EF00E16D35 /* BlueteethUITests.swift */; };
 		F38439D52AF3F1EF00E16D35 /* BlueteethUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38439D42AF3F1EF00E16D35 /* BlueteethUITestsLaunchTests.swift */; };
+		F3A1EA752B29E1EC004AAB7D /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A1EA742B29E1EC004AAB7D /* Dashboard.swift */; };
+		F3A1EA772B29EF8C004AAB7D /* DashboardTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A1EA762B29EF8C004AAB7D /* DashboardTop.swift */; };
+		F3A1EA7C2B2A1BF5004AAB7D /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A1EA7B2B2A1BF5004AAB7D /* Tile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +74,17 @@
 		F319BEC32B0B63C70029F9C9 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		F34732F92AF6526600803BD7 /* ColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
 		F34732FD2AF6539700803BD7 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		F35046672B19B2B1001E54D4 /* LearnMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMore.swift; sourceTree = "<group>"; };
+		F34A277A2B1E116F003ACE6D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		F34A277C2B1E13C0003ACE6D /* LearnSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSignUpView.swift; sourceTree = "<group>"; };
+		F34D469C2B3039F500C53F6B /* DashboardScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScene.swift; sourceTree = "<group>"; };
+		F34D469E2B303A0300C53F6B /* DashboardLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardLock.swift; sourceTree = "<group>"; };
+		F34D46A32B303A4000C53F6B /* DashboardThermostat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardThermostat.swift; sourceTree = "<group>"; };
+		F34D46A62B303A7A00C53F6B /* Watermeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watermeter.swift; sourceTree = "<group>"; };
+		F34D46A92B30463000C53F6B /* DashboardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardList.swift; sourceTree = "<group>"; };
+		F34D46AB2B3047A800C53F6B /* DeviceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCard.swift; sourceTree = "<group>"; };
+		F34D46AD2B30481800C53F6B /* DeviceTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTop.swift; sourceTree = "<group>"; };
+		F34D46AF2B30548A00C53F6B /* AddMoveItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoveItem.swift; sourceTree = "<group>"; };
+		F35046672B19B2B1001E54D4 /* LearnMoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreTabView.swift; sourceTree = "<group>"; };
 		F35046692B1B3939001E54D4 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
 		F350466C2B1B3D9E001E54D4 /* NavigationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViews.swift; sourceTree = "<group>"; };
 		F350466E2B1B4128001E54D4 /* TextContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextContent.swift; sourceTree = "<group>"; };
@@ -81,6 +104,9 @@
 		F38439CE2AF3F1EF00E16D35 /* BlueteethUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueteethUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38439D22AF3F1EF00E16D35 /* BlueteethUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueteethUITests.swift; sourceTree = "<group>"; };
 		F38439D42AF3F1EF00E16D35 /* BlueteethUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueteethUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3A1EA742B29E1EC004AAB7D /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		F3A1EA762B29EF8C004AAB7D /* DashboardTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTop.swift; sourceTree = "<group>"; };
+		F3A1EA7B2B2A1BF5004AAB7D /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +143,64 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		F34D469B2B3039DB00C53F6B /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				F34D46A52B303A6700C53F6B /* WaterMeter */,
+				F34D46A22B303A2800C53F6B /* Thermostat */,
+				F34D46A12B303A1800C53F6B /* Lock */,
+				F34D46A02B303A0A00C53F6B /* Scene */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		F34D46A02B303A0A00C53F6B /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				F34D469C2B3039F500C53F6B /* DashboardScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		F34D46A12B303A1800C53F6B /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				F34D469E2B303A0300C53F6B /* DashboardLock.swift */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
+		F34D46A22B303A2800C53F6B /* Thermostat */ = {
+			isa = PBXGroup;
+			children = (
+				F34D46A32B303A4000C53F6B /* DashboardThermostat.swift */,
+			);
+			path = Thermostat;
+			sourceTree = "<group>";
+		};
+		F34D46A52B303A6700C53F6B /* WaterMeter */ = {
+			isa = PBXGroup;
+			children = (
+				F34D46A62B303A7A00C53F6B /* Watermeter.swift */,
+			);
+			path = WaterMeter;
+			sourceTree = "<group>";
+		};
+		F34E84CD2B2C2E78007AD622 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3A1EA7B2B2A1BF5004AAB7D /* Tile.swift */,
+				F34D46AB2B3047A800C53F6B /* DeviceCard.swift */,
+				F34D46AD2B30481800C53F6B /* DeviceTop.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F35046652B19B281001E54D4 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				F34D469B2B3039DB00C53F6B /* Devices */,
+				F3A1EA722B29E1B3004AAB7D /* Dashboard */,
 				F35046662B19B296001E54D4 /* LearnMore */,
 				F352F76B2AF55F0500D5A146 /* Login */,
 			);
@@ -129,9 +210,11 @@
 		F35046662B19B296001E54D4 /* LearnMore */ = {
 			isa = PBXGroup;
 			children = (
-				F35046672B19B2B1001E54D4 /* LearnMore.swift */,
+				F35046672B19B2B1001E54D4 /* LearnMoreTabView.swift */,
+				F34A277A2B1E116F003ACE6D /* WelcomeView.swift */,
 				F350466E2B1B4128001E54D4 /* TextContent.swift */,
 				F35046702B1B41F1001E54D4 /* BottomButton.swift */,
+				F34A277C2B1E13C0003ACE6D /* LearnSignUpView.swift */,
 			);
 			path = LearnMore;
 			sourceTree = "<group>";
@@ -172,6 +255,7 @@
 		F352F76F2AF55FCD00D5A146 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				F34E84CD2B2C2E78007AD622 /* Views */,
 				F352F7702AF55FE100D5A146 /* Style.swift */,
 				F34732F92AF6526600803BD7 /* ColorScheme.swift */,
 			);
@@ -237,6 +321,25 @@
 				F38439D42AF3F1EF00E16D35 /* BlueteethUITestsLaunchTests.swift */,
 			);
 			path = BlueteethUITests;
+			sourceTree = "<group>";
+		};
+		F3A1EA722B29E1B3004AAB7D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F3A1EA732B29E1D3004AAB7D /* View */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		F3A1EA732B29E1D3004AAB7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3A1EA742B29E1EC004AAB7D /* Dashboard.swift */,
+				F3A1EA762B29EF8C004AAB7D /* DashboardTop.swift */,
+				F34D46A92B30463000C53F6B /* DashboardList.swift */,
+				F34D46AF2B30548A00C53F6B /* AddMoveItem.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,26 +472,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34D46AA2B30463000C53F6B /* DashboardList.swift in Sources */,
 				F350466A2B1B3939001E54D4 /* NavigationViewModel.swift in Sources */,
 				F319BEB82B0B61970029F9C9 /* Title.swift in Sources */,
+				F34D46B02B30548A00C53F6B /* AddMoveItem.swift in Sources */,
+				F34D469D2B3039F500C53F6B /* DashboardScene.swift in Sources */,
 				F319BEC42B0B63C70029F9C9 /* LoginModel.swift in Sources */,
-				F35046682B19B2B1001E54D4 /* LearnMore.swift in Sources */,
+				F35046682B19B2B1001E54D4 /* LearnMoreTabView.swift in Sources */,
 				F319BEBA2B0B61B10029F9C9 /* TryADemo.swift in Sources */,
 				F352F76E2AF55F2C00D5A146 /* LoginView.swift in Sources */,
 				F35046712B1B41F1001E54D4 /* BottomButton.swift in Sources */,
+				F34A277D2B1E13C0003ACE6D /* LearnSignUpView.swift in Sources */,
+				F3A1EA772B29EF8C004AAB7D /* DashboardTop.swift in Sources */,
+				F34D46AC2B3047A800C53F6B /* DeviceCard.swift in Sources */,
 				F319BEBE2B0B62180029F9C9 /* SignIn.swift in Sources */,
+				F34D46AE2B30481800C53F6B /* DeviceTop.swift in Sources */,
 				F35808862B0FAFCF00BA2F43 /* EnvBottomSheet.swift in Sources */,
 				F38439B92AF3F1EE00E16D35 /* ContentView.swift in Sources */,
 				F319BEBC2B0B61FD0029F9C9 /* BlueteethImage.swift in Sources */,
+				F34D46A72B303A7A00C53F6B /* Watermeter.swift in Sources */,
 				F350466D2B1B3D9E001E54D4 /* NavigationViews.swift in Sources */,
 				F38439B72AF3F1EE00E16D35 /* BlueteethApp.swift in Sources */,
+				F34A277B2B1E116F003ACE6D /* WelcomeView.swift in Sources */,
+				F3A1EA7C2B2A1BF5004AAB7D /* Tile.swift in Sources */,
 				F319BEC02B0B63090029F9C9 /* LearnMoreButton.swift in Sources */,
+				F34D46A42B303A4000C53F6B /* DashboardThermostat.swift in Sources */,
 				F319BEC22B0B63750029F9C9 /* LoginViewModel.swift in Sources */,
 				F350466F2B1B4128001E54D4 /* TextContent.swift in Sources */,
 				F34732FE2AF6539700803BD7 /* Colors.swift in Sources */,
 				F352F7732AF560F900D5A146 /* View.swift in Sources */,
+				F3A1EA752B29E1EC004AAB7D /* Dashboard.swift in Sources */,
 				F34732FA2AF6526600803BD7 /* ColorScheme.swift in Sources */,
 				F352F7712AF55FE100D5A146 /* Style.swift in Sources */,
+				F34D469F2B303A0300C53F6B /* DashboardLock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

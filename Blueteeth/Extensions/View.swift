@@ -18,4 +18,8 @@ extension View {
     func roundButton() -> some View {
         modifier(RoundButton())
     }
+    
+    func dashboardButtons() -> some View {
+        modifier(DashboardButtons())
+    }
 }

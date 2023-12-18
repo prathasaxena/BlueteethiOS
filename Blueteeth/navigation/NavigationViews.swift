@@ -9,4 +9,5 @@ import Foundation
 
 enum NavigationViews {
     case LearnMore
+    case Dashboard
 }

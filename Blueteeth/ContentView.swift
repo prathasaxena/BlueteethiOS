@@ -15,10 +15,13 @@ struct ContentView: View {
                 .navigationDestination(for: NavigationViews.self) { dest in
                     switch(dest) {
                     case .LearnMore:
-                        LearnMore()
+                        LearnMoreTabView()
+                    case .Dashboard:
+                        Dashboard()
                     }
             }
         }
+        .navigationBarBackButtonHidden(true)
         .environmentObject(navigation)
         
     }

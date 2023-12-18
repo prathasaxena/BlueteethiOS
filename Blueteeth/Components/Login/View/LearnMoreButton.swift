@@ -12,7 +12,7 @@ struct LearnMoreButton: View {
         NavigationLink(value: NavigationViews.LearnMore){
             Text("Learn More")
                 .underline()
-        }.navigationBarBackButtonHidden(true)
+        }
     }
 }
 
