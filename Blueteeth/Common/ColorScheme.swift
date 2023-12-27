@@ -13,4 +13,6 @@ struct ColorScheme {
     let foreground = Color("Foreground")
     let primaryBlue = Color("PrimaryBlue")
     let primaryDark = Color("PrimaryDark")
+    let warm = Color("Warm")
+    let green = Color("Green")
 }

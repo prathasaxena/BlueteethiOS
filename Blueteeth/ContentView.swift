@@ -8,6 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    init() {
+        let request = FirestoreBuilder()
+//        request.setOnLaunchData()
+        request.getUserLocks()
+    }
+    
     @StateObject var navigation = NavigationViewModel()
     var body: some View {
         NavigationStack(path: $navigation.navigationpath) {

@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct DeviceTop : View {
-    var name : String
+    let name : String
+    let icon : String
     var body: some View {
         HStack {
-           Image(systemName: "exclamationmark.lock.fill")
+           Image(systemName: icon)
            Text(name)
            Spacer()
            Image(systemName: "chevron.right")
@@ -24,5 +25,5 @@ struct DeviceTop : View {
 
 
 #Preview {
-    DeviceTop(name:"Some Door")
+    DeviceTop(name:"Some Door", icon: "exclamationmark.lock.fill")
 }
