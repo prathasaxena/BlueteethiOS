@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyB5YBMPijW6VPn6zoZrwiHWwZw6EHnkk5o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>350589709569</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.learn.Blueteeth</string>
+	<key>PROJECT_ID</key>
+	<string>blueteeth-af787</string>
+	<key>STORAGE_BUCKET</key>
+	<string>blueteeth-af787.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:350589709569:ios:d61e5af1fdf79fb8887f00</string>
+</dict>
+</plist>

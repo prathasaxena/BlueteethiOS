@@ -8,11 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+   
     
-    init() {
-        let request = FirestoreBuilder()
-//        request.setOnLaunchData()
-        request.getUserLocks()
+    init()  {
+        DependencyInjection.register(FirestoreBuilder())
     }
     
     @StateObject var navigation = NavigationViewModel()

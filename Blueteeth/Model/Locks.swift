@@ -7,7 +7,20 @@
 
 import Foundation
 
-
+class Locks : Decodable {
+    var id : String
+    var isAvailable : Bool
+    var name : String
+    var model : String
+   
+    var unlockTechnology : String
+ 
+    private enum CodingKeys : String, CodingKey {
+        case isAvailable = "is_available"
+        case unlockTechnology = "unlock_technology"
+        case id, model, name
+    }
+}
 
 
 

@@ -24,6 +24,9 @@
 		F34732FE2AF6539700803BD7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34732FD2AF6539700803BD7 /* Colors.swift */; };
 		F34A277B2B1E116F003ACE6D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A277A2B1E116F003ACE6D /* WelcomeView.swift */; };
 		F34A277D2B1E13C0003ACE6D /* LearnSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A277C2B1E13C0003ACE6D /* LearnSignUpView.swift */; };
+		F34CA63B2B63B0AA009BCF46 /* AugustLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34CA63A2B63B0AA009BCF46 /* AugustLock.swift */; };
+		F34CA63E2B63B39C009BCF46 /* UserLocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34CA63D2B63B39C009BCF46 /* UserLocks.swift */; };
+		F34CA6432B640F68009BCF46 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34CA6422B640F68009BCF46 /* DashboardViewModel.swift */; };
 		F34D469D2B3039F500C53F6B /* DashboardScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D469C2B3039F500C53F6B /* DashboardScene.swift */; };
 		F34D469F2B303A0300C53F6B /* DashboardLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D469E2B303A0300C53F6B /* DashboardLock.swift */; };
 		F34D46A42B303A4000C53F6B /* DashboardThermostat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D46A32B303A4000C53F6B /* DashboardThermostat.swift */; };
@@ -40,10 +43,12 @@
 		F352F76E2AF55F2C00D5A146 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352F76D2AF55F2C00D5A146 /* LoginView.swift */; };
 		F352F7712AF55FE100D5A146 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352F7702AF55FE100D5A146 /* Style.swift */; };
 		F352F7732AF560F900D5A146 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352F7722AF560F900D5A146 /* View.swift */; };
+		F35789752B6637D7004E4F4F /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35789742B6637D7004E4F4F /* DependencyInjection.swift */; };
+		F357BDA82B66A83100153527 /* DIErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357BDA72B66A83100153527 /* DIErrors.swift */; };
+		F357BDAA2B66ACCB00153527 /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357BDA92B66ACCB00153527 /* Inject.swift */; };
 		F35808862B0FAFCF00BA2F43 /* EnvBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35808852B0FAFCF00BA2F43 /* EnvBottomSheet.swift */; };
 		F35AD3452B36E43A00E00F96 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AD3442B36E43A00E00F96 /* Request.swift */; };
 		F35AD3482B36EA7F00E00F96 /* getUserLocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AD3472B36EA7F00E00F96 /* getUserLocks.swift */; };
-		F35B7DE02B348DA800AB80D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F35B7DDF2B348DA800AB80D8 /* GoogleService-Info.plist */; };
 		F35B7DE32B348F3400AB80D8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F35B7DE22B348F3400AB80D8 /* FirebaseAnalytics */; };
 		F35B7DE52B348F3400AB80D8 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = F35B7DE42B348F3400AB80D8 /* FirebaseAnalyticsOnDeviceConversion */; };
 		F35B7DE72B348F3400AB80D8 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F35B7DE62B348F3400AB80D8 /* FirebaseAnalyticsSwift */; };
@@ -59,6 +64,8 @@
 		F35B7DFB2B348F3400AB80D8 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F35B7DFA2B348F3400AB80D8 /* FirebaseFirestoreSwift */; };
 		F35B7DFD2B348F3400AB80D8 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F35B7DFC2B348F3400AB80D8 /* FirebaseStorage */; };
 		F35B7DFF2B348F3400AB80D8 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F35B7DFE2B348F3400AB80D8 /* FirebaseStorageCombine-Community */; };
+		F362CD722B62C6190027527A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F362CD712B62C6190027527A /* GoogleService-Info.plist */; };
+		F362CD742B62C7DF0027527A /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362CD732B62C7DF0027527A /* constants.swift */; };
 		F38439B72AF3F1EE00E16D35 /* BlueteethApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38439B62AF3F1EE00E16D35 /* BlueteethApp.swift */; };
 		F38439B92AF3F1EE00E16D35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38439B82AF3F1EE00E16D35 /* ContentView.swift */; };
 		F38439BB2AF3F1EF00E16D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38439BA2AF3F1EF00E16D35 /* Assets.xcassets */; };
@@ -106,6 +113,9 @@
 		F34732FD2AF6539700803BD7 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		F34A277A2B1E116F003ACE6D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		F34A277C2B1E13C0003ACE6D /* LearnSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSignUpView.swift; sourceTree = "<group>"; };
+		F34CA63A2B63B0AA009BCF46 /* AugustLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugustLock.swift; sourceTree = "<group>"; };
+		F34CA63D2B63B39C009BCF46 /* UserLocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocks.swift; sourceTree = "<group>"; };
+		F34CA6422B640F68009BCF46 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 		F34D469C2B3039F500C53F6B /* DashboardScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScene.swift; sourceTree = "<group>"; };
 		F34D469E2B303A0300C53F6B /* DashboardLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardLock.swift; sourceTree = "<group>"; };
 		F34D46A32B303A4000C53F6B /* DashboardThermostat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardThermostat.swift; sourceTree = "<group>"; };
@@ -122,10 +132,14 @@
 		F352F76D2AF55F2C00D5A146 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F352F7702AF55FE100D5A146 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		F352F7722AF560F900D5A146 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		F35789742B6637D7004E4F4F /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
+		F357BDA72B66A83100153527 /* DIErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIErrors.swift; sourceTree = "<group>"; };
+		F357BDA92B66ACCB00153527 /* Inject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
 		F35808852B0FAFCF00BA2F43 /* EnvBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvBottomSheet.swift; sourceTree = "<group>"; };
 		F35AD3442B36E43A00E00F96 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		F35AD3472B36EA7F00E00F96 /* getUserLocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getUserLocks.swift; sourceTree = "<group>"; };
-		F35B7DDF2B348DA800AB80D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F362CD712B62C6190027527A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F362CD732B62C7DF0027527A /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		F38439B32AF3F1EE00E16D35 /* Blueteeth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blueteeth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38439B62AF3F1EE00E16D35 /* BlueteethApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueteethApp.swift; sourceTree = "<group>"; };
 		F38439B82AF3F1EE00E16D35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -185,6 +199,8 @@
 		F34637E82B380FF8003DF94F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F34CA63C2B63B38A009BCF46 /* Response */,
+				F34CA6392B63B08E009BCF46 /* August */,
 				F34637E92B38102B003DF94F /* Locks.swift */,
 				F34637EB2B3819C2003DF94F /* Chirp */,
 			);
@@ -210,6 +226,30 @@
 				F34732FD2AF6539700803BD7 /* Colors.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F34CA6392B63B08E009BCF46 /* August */ = {
+			isa = PBXGroup;
+			children = (
+				F34CA63A2B63B0AA009BCF46 /* AugustLock.swift */,
+			);
+			path = August;
+			sourceTree = "<group>";
+		};
+		F34CA63C2B63B38A009BCF46 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				F34CA63D2B63B39C009BCF46 /* UserLocks.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		F34CA63F2B640E6E009BCF46 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F34CA6422B640F68009BCF46 /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		F34D469B2B3039DB00C53F6B /* Devices */ = {
@@ -331,10 +371,28 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		F35789732B6637AE004E4F4F /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				F35789742B6637D7004E4F4F /* DependencyInjection.swift */,
+				F357BDA92B66ACCB00153527 /* Inject.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		F357BDA62B66A82100153527 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				F357BDA72B66A83100153527 /* DIErrors.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
 		F35AD3432B36E41D00E00F96 /* network */ = {
 			isa = PBXGroup;
 			children = (
 				F35AD3442B36E43A00E00F96 /* Request.swift */,
+				F362CD732B62C7DF0027527A /* constants.swift */,
 			);
 			path = network;
 			sourceTree = "<group>";
@@ -370,6 +428,8 @@
 		F38439B52AF3F1EE00E16D35 /* Blueteeth */ = {
 			isa = PBXGroup;
 			children = (
+				F357BDA62B66A82100153527 /* Errors */,
+				F35789732B6637AE004E4F4F /* DependencyInjection */,
 				F34637E82B380FF8003DF94F /* Model */,
 				F35AD3462B36EA5300E00F96 /* demoData */,
 				F35AD3432B36E41D00E00F96 /* network */,
@@ -380,7 +440,7 @@
 				F38439B62AF3F1EE00E16D35 /* BlueteethApp.swift */,
 				F38439B82AF3F1EE00E16D35 /* ContentView.swift */,
 				F38439BA2AF3F1EF00E16D35 /* Assets.xcassets */,
-				F35B7DDF2B348DA800AB80D8 /* GoogleService-Info.plist */,
+				F362CD712B62C6190027527A /* GoogleService-Info.plist */,
 				F38439BC2AF3F1EF00E16D35 /* Blueteeth.entitlements */,
 				F38439BD2AF3F1EF00E16D35 /* Preview Content */,
 			);
@@ -415,6 +475,7 @@
 		F3A1EA722B29E1B3004AAB7D /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				F34CA63F2B640E6E009BCF46 /* ViewModel */,
 				F3A1EA732B29E1D3004AAB7D /* View */,
 			);
 			path = Dashboard;
@@ -556,8 +617,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F38439BF2AF3F1EF00E16D35 /* Preview Assets.xcassets in Resources */,
+				F362CD722B62C6190027527A /* GoogleService-Info.plist in Resources */,
 				F38439BB2AF3F1EF00E16D35 /* Assets.xcassets in Resources */,
-				F35B7DE02B348DA800AB80D8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,8 +660,12 @@
 				F3A1EA772B29EF8C004AAB7D /* DashboardTop.swift in Sources */,
 				F34D46AC2B3047A800C53F6B /* DeviceCard.swift in Sources */,
 				F35AD3482B36EA7F00E00F96 /* getUserLocks.swift in Sources */,
+				F34CA63E2B63B39C009BCF46 /* UserLocks.swift in Sources */,
+				F362CD742B62C7DF0027527A /* constants.swift in Sources */,
 				F319BEBE2B0B62180029F9C9 /* SignIn.swift in Sources */,
+				F35789752B6637D7004E4F4F /* DependencyInjection.swift in Sources */,
 				F34D46AE2B30481800C53F6B /* DeviceTop.swift in Sources */,
+				F34CA6432B640F68009BCF46 /* DashboardViewModel.swift in Sources */,
 				F35808862B0FAFCF00BA2F43 /* EnvBottomSheet.swift in Sources */,
 				F38439B92AF3F1EE00E16D35 /* ContentView.swift in Sources */,
 				F319BEBC2B0B61FD0029F9C9 /* BlueteethImage.swift in Sources */,
@@ -610,11 +675,14 @@
 				F34637EF2B3819E6003DF94F /* Reader.swift in Sources */,
 				F34637F32B381A28003DF94F /* ChirpLock.swift in Sources */,
 				F34A277B2B1E116F003ACE6D /* WelcomeView.swift in Sources */,
+				F357BDAA2B66ACCB00153527 /* Inject.swift in Sources */,
 				F34637F12B381A10003DF94F /* ChirpMetaData.swift in Sources */,
 				F3A1EA7C2B2A1BF5004AAB7D /* Tile.swift in Sources */,
 				F319BEC02B0B63090029F9C9 /* LearnMoreButton.swift in Sources */,
 				F34637EA2B38102B003DF94F /* Locks.swift in Sources */,
+				F357BDA82B66A83100153527 /* DIErrors.swift in Sources */,
 				F34D46A42B303A4000C53F6B /* DashboardThermostat.swift in Sources */,
+				F34CA63B2B63B0AA009BCF46 /* AugustLock.swift in Sources */,
 				F319BEC22B0B63750029F9C9 /* LoginViewModel.swift in Sources */,
 				F350466F2B1B4128001E54D4 /* TextContent.swift in Sources */,
 				F34732FE2AF6539700803BD7 /* Colors.swift in Sources */,

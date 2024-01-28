@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DashboardTop: View {
+
     var body: some View {
         ZStack {
             Image("night-light")

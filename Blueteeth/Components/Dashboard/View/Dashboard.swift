@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct Dashboard: View {
+    @StateObject var dashboardViewModel = DashboardViewModel()
+    init() {
+        self.dashboardViewModel.fetchDashboardData()
+    }
     var body: some View {
         ZStack(alignment: .top) {
             DashboardTop()
@@ -37,7 +41,7 @@ struct Dashboard: View {
         .ignoresSafeArea()
         .navigationBarBackButtonHidden(false)
         .listStyle(GroupedListStyle())
-       
+        .environmentObject(dashboardViewModel)
 
       
         
