@@ -9,6 +9,7 @@ import SwiftUI
 
 struct AddMoveItem: View {
     @State var pressEntry: Bool = false
+    @EnvironmentObject var dashboardViewModel : DashboardViewModel
     var body: some View {
         VStack {
             if (pressEntry) {
@@ -20,6 +21,9 @@ struct AddMoveItem: View {
                 
             }
             Button(action: {
+                print("pressed!!!")
+                self.dashboardViewModel.fetchDashboardData()
+                
                 if (pressEntry == false) {
                     withAnimation {
                         pressEntry = true

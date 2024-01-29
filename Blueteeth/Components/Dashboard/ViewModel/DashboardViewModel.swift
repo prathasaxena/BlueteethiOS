@@ -8,13 +8,16 @@
 import Foundation
 
 class DashboardViewModel : ObservableObject {
-    @Inject var request : FirestoreBuilder
+     var request : FirestoreBuilder = FirestoreBuilder()
     
     func fetchDashboardData() {
-        print("called @@@")
         Task { [weak self] in
             let locksData : UserLocks? = await self?.request.getData(document: .documentUserLocks)
-            print("locksData \(locksData)")
+            print("locksData \(self) \(locksData)")
         }
+    }
+    
+    deinit {
+        print("DashboardViewModel deallocated")
     }
 }

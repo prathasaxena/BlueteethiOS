@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DashboardTop: View {
-
+    @EnvironmentObject var dashboardViewModel : DashboardViewModel
     var body: some View {
         ZStack {
             Image("night-light")
@@ -38,6 +38,7 @@ struct DashboardTop: View {
             .frame(height: 200)
         }
         .dashboardButtons()
+        
 //        Spacer()
     }
 }
